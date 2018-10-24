@@ -1,0 +1,166 @@
+body{
+    background-size: cover;
+}
+
+
+#page-footer{
+    display:none;
+}
+#enjin-bar a{
+    color:#ffffff;
+}
+
+
+@media all and (max-width: 1000px) {
+    p.serverAddress{
+        animation-delay: 2s;
+    }
+    /*fade in page*/
+/*body {*/
+/*    opacity: 1;*/
+/*    transition: .5s opacity;*/
+/*}*/
+/*body.fade-out {*/
+/*    opacity: 0;*/
+/*    transition: none;*/
+/*}*/
+/*end fade in*/
+    .section{
+        width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    /*login box*/
+    [data-container-id="58391029"]{
+        width:100%;
+    }
+    /*events box*/
+    [data-container-id="58155333"]{
+        width:100%;
+    }
+    
+    /*featured box*/
+    [data-container-id="49948129"]{
+        width:100%;
+    }
+    /*shoutout box*/
+    [data-container-id="37769817"]{
+        width:30%;
+        flex:1;
+    }
+    /*birthday box*/
+    [data-container-id="48404857"]{
+        width:40%;
+        flex:1;
+    }
+    /*discord box*/
+    [data-container-id="49948156"]{
+        width:30%;
+        flex:1;
+    }
+    /*news box*/
+    [data-container-id="37796692"]{
+        width:100%;
+    }
+    /*server status box*/
+    [data-container-id="56871680"]{
+        width:50%;
+    }
+    /*threads box*/
+    [data-container-id="35810306"]{
+        width:50%;
+        
+    }
+    /*applications box*/
+    [data-container-id="51512435"]{
+        width:100%;
+    }
+    /*report box*/
+    [data-container-id="51448458"]{
+        width:100%;
+    }
+    body { 
+  background: url(https://assets-cloud.enjin.com/themes/1540281180_take4.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+    tr.top {
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+    tr.top, .top .section-border, .top .section-divider{
+        height:100%;
+    }
+    
+    td#section-left,td#section-right ,td#section-main{
+    width: 90% !important;
+    padding-left:5%;
+    }
+    
+/*Prevents nav menu from wrapping*/
+.m_hmenu_v2.cust162529 .first-level-items > .auto-position-container > .li{
+               margin: 0% 0% 0% 5%;
+}
+/*Top images/logos*/
+    .m_html img {
+        max-width:85% !important;
+    }
+/*Nav bar padding and random? other sections*/
+    .last {
+    padding-left: 5%;
+    padding-right: 5%;
+    width:100%;
+    
+}
+.container.with-header.with-footer.first.last,.container.with-header.with-footer.last{
+     padding-left: 0%;
+    padding-right: 0%;
+}
+#enjin-bar{
+    padding-left: 10%;
+    padding-right: 10%;
+    width:100%;
+}
+.special_container.first.last{
+    padding-left:5%;
+}
+
+/****Font sizes****/
+.container.with-header .container_header .header_text_text,a,h1,h2,h3,h4,h5,h6,p,body,span,.m_login .username a,.m_login.loggedin .role,.m_shoutbox .shout .message,.m_membersonline .featured .user .registered
+,.m_shoppingfeatured .featured-price,.record_day,.record_week,.record_month{
+    font-size:1.3em !important;
+}
+.m_news.main .article .heading{
+    text-align:center;
+}
+/*login section*/
+.m_login{
+    padding: 10% 0 10% 40%;
+    transform: scale(2);
+}
+/*end login section*/
+/*shop section*/
+.m_shoppingfeatured .featured-view-store,.featured-view-store.element_button.animated.bounce{
+    transform: scale(3);
+    margin-bottom: 93px;
+    margin-top: 50px;
+    margin-left: 56px;
+}
+.m_shoppingfeatured .featured-pagination{
+    transform: scale(7.5);
+    margin-top: 250px;
+    margin-bottom: 110px;
+    float: initial;
+}
+.m_shoppingfeatured .featured-item{
+    transform: scale(2);
+    margin-top: 70%;
+    margin-bottom: 80%;
+}
+/*center footer*/
+td#section-footer{
+    width:100%;
+}
+}
